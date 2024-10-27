@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum Vitae</title>
+    <style>
+        /* Basic Styling - You can customize these further */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid black; /* Optional border */
+            margin: 0 auto; /* Center the photo */
+        }
+
+        .header-section {
+            background-color: lightgray; /* Optional background color */
+        }
+
+        .left-column {
+            width: 30%; /* Adjust width as needed */
+        }
+
+        .right-column {
+            width: 70%; /* Adjust width as needed */
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr class="header-section">
+            <th colspan="2">
+                <div class="profile-photo"></div>
+            </th>
+            <th colspan="2">
+                <h1>Curriculum Vitae</h1>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="left-column">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Apellidos:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Nro Contacto:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Edad:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Dirección:</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2" class="right-column">
+                <table>
+                    <tr>
+                        <th >Experiencia Laboral</th>
+                    </tr>
+                    <tr>
+                        <td>Experiencia 1</td>
+                    </tr>
+                    <tr>
+                        <td>Experiencia 2</td>
+                    </tr>
+                    <tr>
+                        <td>Experiencia 3</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

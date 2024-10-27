@@ -1,0 +1,9 @@
+#movableDiv {
+    position: absolute;
+    top: 50%; /* Posiciona el div en el 50% de la altura de la página */
+    left: 50%; /* Posiciona el div en el 50% del ancho de la página */
+    transform: translate(-50%, -50%); /* Ajusta la posición para que el div esté centrado */
+    width: 400px; /* Ancho del div */
+    height: 400px; /* Alto del div */
+    border: 1px solid black; /* Bordes del div */
+}
